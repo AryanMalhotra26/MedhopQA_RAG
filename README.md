@@ -22,11 +22,11 @@ The pipeline takes a natural language query, runs it through both BM25 sparse re
 
 ## Key Features
 
-- **Hybrid Retrieval** — Combines BM25 sparse search with BioBERT dense vector search for improved recall over either method alone
-- **Multi-Hop Reasoning** — Handles questions requiring evidence chaining across diseases, genes, and chemical entities
-- **Grounded Generation** — LLM answers strictly conditioned on retrieved context with fallback behavior when evidence is insufficient, reducing hallucinations
-- **Evaluation Pipeline** — Exact Match and F1 scoring with answer normalization and failure categorization across retrieval, reasoning, and generation error types
-- **Prompt Engineering** — Experiments with query rewriting, chain-of-thought prompting, and missing-link entity extraction for complex multi-step questions
+- **Hybrid Retrieval** - Combines BM25 sparse search with BioBERT dense vector search for improved recall over either method alone
+- **Multi-Hop Reasoning** - Handles questions requiring evidence chaining across diseases, genes, and chemical entities
+- **Grounded Generation** - LLM answers strictly conditioned on retrieved context with fallback behavior when evidence is insufficient, reducing hallucinations
+- **Evaluation Pipeline** - Exact Match and F1 scoring with answer normalization and failure categorization across retrieval, reasoning, and generation error types
+- **Prompt Engineering** - Experiments with query rewriting, chain-of-thought prompting, and missing-link entity extraction for complex multi-step questions
 
 ## Project Structure
 
