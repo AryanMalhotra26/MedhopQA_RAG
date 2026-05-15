@@ -1,4 +1,4 @@
-# MedhopQA RAG — Biomedical Multi-Hop Question Answering
+# MedhopQA RAG - Biomedical Multi-Hop Question Answering
 
 A modular **Retrieval-Augmented Generation (RAG)** system for biomedical multi-hop question answering, built on the MedHop dataset. The system answers complex questions requiring multi-step reasoning across multiple documents involving diseases, genes, and chemical entities.
 
@@ -61,4 +61,4 @@ python medhopqa_rag.py
 
 ---
 
-*Research project — Western University, 2026.*
+*Research project - Western University, 2026.*
